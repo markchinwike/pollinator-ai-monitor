@@ -4,4 +4,4 @@ rf = Roboflow(api_key="tDGpLNVSs4zJ1OVGt0Gg")
 project = rf.workspace("marks-workspace-chqhs").project("pollinator_hard_examples-wv7l7")
 version = project.version(2)
 dataset = version.download("yolov8")
-                
+

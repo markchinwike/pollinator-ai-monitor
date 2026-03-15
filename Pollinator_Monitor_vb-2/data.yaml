@@ -12,7 +12,7 @@ roboflow:
 train: train/images
 val: train/images
 
-names:nc: 2
+names:nc: 1
 names:
   0: bee
   1: hoverfly
