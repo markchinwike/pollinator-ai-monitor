@@ -1,0 +1,22 @@
+# Ignore the virtual environment
+venv/
+env/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore the heavy data (keep this on your Mac only)
+datasets/
+Pollinator_Monitor_vb-2/
+*.zip
+*.jpg
+*.jpeg
+*.png
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+
+# Keep the results but ignore the massive weights if they are too big
+# (We will keep best.pt as it's usually small enough)
+runs/detect/train*/weights/last.pt
