@@ -1,0 +1,5 @@
+venv/
+*.mp4
+*.MOV
+venv/
+runs/detect/predict*/
